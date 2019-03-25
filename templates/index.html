@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+
+{% block content %}
+    <h1>{{ appName }}</h1>
+
+    <form method="post" action="submit-here">
+        <input type="email" name="email" required/>
+        <button type="submit">Submit!!!</button>
+    </form>
+    
+{% endblock %}
+
